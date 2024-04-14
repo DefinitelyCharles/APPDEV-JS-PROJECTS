@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Pokedex</title>
+    <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nes-container with-title">
+        <h2 class="page-title">Pokemon Pokedex</h2>
+        <div class="underline"></div>
+    </div>
+
+    <div class="nes-container with-title">
+        <div class="btn-container">
+            <label class="dark_select" style="color:#fff">Select Type:</label>
+            <div class="nes-select is-dark">
+                <select required id="primary_type_select">
+                    <option value="" disabled selected hidden>Select...</option>
+                    <option value="all">All</option>
+                    <option value="normal">Normal</option>
+                    <option value="fire">Fire</option>
+                    <option value="water">Water</option>
+                    <option value="electric">Electric</option>
+                    <option value="grass">Grass</option>
+                    <option value="ice">Ice</option>
+                    <option value="fighting">Fighting</option>
+                    <option value="poison">Poison</option>
+                    <option value="ground">Ground</option>
+                    <option value="flying">Flying</option>
+                    <option value="psychic">Psychic</option>
+                    <option value="bug">Bug</option>
+                    <option value="rock">Rock</option>
+                    <option value="ghost">Ghost</option>
+                    <option value="dragon">Dragon</option>
+                    <option value="dark">Dark</option>
+                    <option value="steel">Steel</option>
+                    <option value="fairy">Fairy</option>
+                </select>
+            </div>
+
+            <label class="dark_select" style="color:#fff">Select Secondary Type:</label>
+            <div class="nes-select is-dark">
+                <select required id="secondary_type_select">
+                    <option value="" disabled selected hidden>Select...</option>
+                    <option value="" disabled selected hidden>Select...</option>
+                    <option value="all">All</option>
+                    <option value="normal">Normal</option>
+                    <option value="fire">Fire</option>
+                    <option value="water">Water</option>
+                    <option value="electric">Electric</option>
+                    <option value="grass">Grass</option>
+                    <option value="ice">Ice</option>
+                    <option value="fighting">Fighting</option>
+                    <option value="poison">Poison</option>
+                    <option value="ground">Ground</option>
+                    <option value="flying">Flying</option>
+                    <option value="psychic">Psychic</option>
+                    <option value="bug">Bug</option>
+                    <option value="rock">Rock</option>
+                    <option value="ghost">Ghost</option>
+                    <option value="dragon">Dragon</option>
+                    <option value="dark">Dark</option>
+                    <option value="steel">Steel</option>
+                    <option value="fairy">Fairy</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-center">
+        <!-- Articles will be dynamically generated here -->
+    </div>
+
+    <br><br><br>
+
+    <footer class="footer">
+        <div class="nes-container with-title footer-content">
+            <h3 class="footer-title">Mission:</h3>
+            <p>To provide comprehensive information about Pokémon, helping trainers and enthusiasts alike.</p>
+            <h3 class="footer-title">Vision:</h3>
+            <p>To become the most trusted and go-to platform for Pokémon data and insights.</p>
+            <h3 class="footer-title">Members:</h3>
+            <p>Charles Hanzel Gerardo</p>
+            <p>Jerric Panayo</p>
+            <div class="underline"></div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
